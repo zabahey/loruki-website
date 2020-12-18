@@ -308,6 +308,10 @@ pre {
   .footer .grid > *:nth-child(3) {
     grid-column: 1 / span 2;
   }
+
+  .footer .social {
+      margin-top: 10px;
+  }
 }
 
 /* Mobile */
