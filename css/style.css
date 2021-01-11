@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root {
   --primary-color: #047aed;
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #333;
   line-height: 1.6;
 }
@@ -50,6 +50,12 @@ pre {
   background: #333;
   color: #fff;
   padding: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
+  margin: 0 !important;
 }
 
 /* Navbar */
@@ -99,7 +105,7 @@ pre {
 }
 
 .showcase-text {
-    animation: slideInFromLeft 1s ease-in;
+  animation: slideInFromLeft 1s ease-in;
 }
 
 .showcase-form {
@@ -118,8 +124,8 @@ pre {
   margin: 30px 0;
 }
 
-.showcase-form input[type="text"],
-.showcase-form input[type="email"] {
+.showcase-form input[type='text'],
+.showcase-form input[type='email'] {
   border: 0;
   border-bottom: 1px solid #b4becb;
   width: 100%;
@@ -133,7 +139,7 @@ pre {
 
 .showcase::before,
 .showcase::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 100px;
   bottom: -70px;
@@ -259,43 +265,43 @@ pre {
 
 /* Animation */
 @keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-    }
+  0% {
+    transform: translateX(-100%);
+  }
 
-    100% {
-        transform: translateX(0);
-    }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes slideInFromRight {
-    0% {
-        transform: translateX(100%);
-    }
+  0% {
+    transform: translateX(100%);
+  }
 
-    100% {
-        transform: translateX(0);
-    }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes slideInFromTop {
-    0% {
-        transform: translateY(-100%);
-    }
+  0% {
+    transform: translateY(-100%);
+  }
 
-    100% {
-        transform: translateX(0);
-    }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes slideInFromBottom {
-    0% {
-        transform: translateY(100%);
-    }
+  0% {
+    transform: translateY(100%);
+  }
 
-    100% {
-        transform: translateX(0);
-    }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 /* Tablets and under */
@@ -359,7 +365,7 @@ pre {
   }
 
   .footer .social {
-      margin-top: 10px;
+    margin-top: 10px;
   }
 }
 
